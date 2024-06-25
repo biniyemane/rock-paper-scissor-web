@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #f0f0f0;
+}
+h1 {
+    font-family: 'Arial', sans-serif; /* You can choose a more decorative font if you prefer */
+    font-size: 32px; /* Adjust the size as needed */
+    color: #007bff; /* A deep blue; you can choose any color you like */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Adds a subtle shadow for a 3D effect */
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: #f0f0f0; /* Light background for the title */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds depth to the title */
+    margin-bottom: 10px; /* Adds space between the title and the game container */
+    text-align: center; /* Ensures the title is centered */
+}
+
+#gameContainer {
+    background: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
